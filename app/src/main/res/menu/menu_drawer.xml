@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ndroid="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/number"
+            android:checkable="true"
+            android:icon="@drawable/n"
+            android:title="Number Converter" />
+
+        <item
+            android:id="@+id/binary"
+            android:icon="@drawable/b"
+            android:title="Binary Formats" />
+
+        <item
+            android:id="@+id/floating"
+            android:icon="@drawable/f"
+            android:title="Floating Point Formats" />
+
+        <group
+            android:id="@+id/group1"
+            android:checkableBehavior="single">
+            <item
+                android:id="@+id/help"
+                android:icon="@drawable/help"
+                android:title="Help" />
+
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/info"
+                android:title="About" />
+
+        </group>
+    </group>
+
+
+</menu>
